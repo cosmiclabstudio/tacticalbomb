@@ -16,9 +16,6 @@ dependencies {
     compileOnly("org.jetbrains:annotations:24.1.0")
     annotationProcessor("org.spongepowered:mixin:0.8.5-SNAPSHOT:processor")
     modImplementation("dev.isxander:yet-another-config-lib:${commonMod.dep("yacl")}-forge")
-    implementation("me.xdrop:fuzzywuzzy:1.4.0")
-    jarJar("me.xdrop:fuzzywuzzy:1.4.0")
-    runtimeOnly("me.xdrop:fuzzywuzzy:1.4.0")
 }
 
 legacyForge {

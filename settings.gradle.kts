@@ -34,7 +34,7 @@ val uniqueVersions = dists.values.flatten().distinct()
 
 stonecutter {
     kotlinController = true
-    centralScript = "gradle.properties.kts"
+    centralScript = "build.gradle.kts"
 
     create(rootProject) {
         versions(*uniqueVersions.toTypedArray())
@@ -47,4 +47,4 @@ stonecutter {
     }
 }
 
-rootProject.name = "examplemod"
+rootProject.name = "tacticalbomb"
